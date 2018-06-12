@@ -44,12 +44,12 @@ module.exports = function(controller) {
                       {
                         type: "postback",
                         "title": "Соёл, Эрүүлмэнд, спорт",
-                        "payload":"menu_CultureAndHealthAndSport"
+                        "payload":"menu_ohvgCultureAndHealthAndSport"
                       },
                       {
                         type: "postback",
                         "title": "ГОДҮ",
-                        "payload":"menu_ForeignStudent"
+                        "payload":"menu_ohvgForeignStudent"
                       }
                     
                   ]},
@@ -92,24 +92,20 @@ module.exports = function(controller) {
                   
                       {
                         type: "postback",
-                        "title": "Facebook Docs1",
-                        "payload":"help"
+                        "title": "Тэтгэлэг",
+                        "payload":"menu_numScholar"
                       },{
                         type: "postback",
-                        "title": "Facebook Docs2",
-                        "payload":"help"
+                        "title": "Оюутны клуб",
+                        "payload":"menu_numClub"
                       },{
                         type: "postback",
-                        "title": "Facebook Docs3",
-                        "payload":"help"
+                        "title": "Оюутан цэрэг",
+                        "payload":"menu_numArmy"
                       },{
                         type: "postback",
-                        "title": "Facebook Docs4",
-                        "payload":"help"
-                      },{
-                        type: "postback",
-                        "title": "Facebook Docs5",
-                        "payload":"help"
+                        "title": "Дотуур байр",
+                        "payload":"num_numDorm"
                       }
                     
                   ]},
@@ -140,9 +136,23 @@ module.exports = function(controller) {
                     ]
                 },
               {
-                    "type":"postback",
-                    "title":"АСУУЛТ АСУУХ",
-                    "payload":"menu_liveChat"
+                    "type":"nested",
+                    "title":"NUMER",
+                  "call_to_actions": [
+                    {
+                        type: "postback",
+                        "title": "Танилцуулга",
+                        "payload":"menu_numerIntro"
+                      },{
+                        type: "postback",
+                        "title": "Авч явах",
+                        "payload":"menu_numerDeliver"
+                      },{
+                        type: "postback",
+                        "title": "Дайгдах",
+                        "payload":"menu_numerCustomer"
+                      }
+                    ]
                 }
               /*
                 {
@@ -167,4 +177,6 @@ module.exports = function(controller) {
                 */
             ]
         }]);
+  
+   
 }
