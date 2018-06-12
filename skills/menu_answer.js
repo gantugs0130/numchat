@@ -16,11 +16,11 @@ module.exports = function(controller) {
             case 'menu_ohvgVolunteer':
                 ans_menu_ohvgVolunteer(bot, message);
                 break;
-            case 'menu_ohvgCultureAndHealthAndSport':
-                ans_menu_ohvgCultureAndHealthAndSport(bot, message);
+            case 'menu_CultureAndHealthAndSport':
+                ans_menu_CultureAndHealthAndSport(bot, message);
                 break;
-            case 'menu_ohvgForeignStudent':
-                ans_menu_ohvgForeignStudent(bot, message);
+            case 'menu_ForeignStudent':
+                ans_menu_ForeignStudent(bot, message);
                 break;
             default:
                 bot.reply(message, 'meh!');
@@ -41,10 +41,10 @@ module.exports = function(controller) {
     bot.reply(message, 'Hey u picked rule!');
   }
 
-  function ans_menu_ohvgCultureAndHealthAndSport(bot, message) {
+  function ans_menu_CultureAndHealthAndSport(bot, message) {
       bot.reply(message, '2');
   }
-  function ans_menu_ohvgForeignStudent(bot, message) {
+  function ans_menu_ForeignStudent(bot, message) {
     bot.reply(message, '1');
   }
 
