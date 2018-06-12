@@ -96,7 +96,7 @@ module.exports = function(controller) {
       bot.reply(message, 'Утасны дугаар:77307730-4101,\nEmail:bs@num.edu.mn,\nWebsite:http://bs.num.edu.mn');
   }
   function ans_menu_stcounselLegalAndSirpa(bot, message){
-      bot.reply(message, ' Хууль зүйн сургуул:\nУтасны дугаар:77307730-312600,\nEmail:lawschool@num.edu.mn,\nWebsite:http://law.num.edu.mn\n ОУХНУС:\nУтасны дугаар:77307730-5101,\nEmail:sirparo@num.edu.mn, \nWebsite:http://sirpa.num.edu.mn');
+      bot.reply(message, 'Хууль зүйн сургуул:\nУтасны дугаар:77307730-312600,\nEmail:lawschool@num.edu.mn,\nWebsite:http://law.num.edu.mn\nОУХНУС:\nУтасны дугаар:77307730-5101,\nEmail:sirparo@num.edu.mn, \nWebsite:http://sirpa.num.edu.mn');
   }
   function ans_menu_stcounselSeasAndSas(bot, message){
       bot.reply(message, 'ХШИУС:\nУтасны дугаар:325631,\nEmail:contact@seas.num.edu.mn,\nWebsite:http://seas.num.edu.mn\nШУС:\nУтасны дугаар:77307730-2101,\nEmail:sas@num.edu.mn,\nWebsite:http://sas.num.edu.mn');
@@ -105,7 +105,7 @@ module.exports = function(controller) {
       bot.reply(message, 'Эрдэнэт:\nУтасны дугаар:7035-2851,\nEmail:erdenet@num.edu.mn,\nWebsite:http://www.muis-orkhon.mn\nЗавхан:\nУтасны дугаар:70462233,\nEmail:zavkhan_1974@yahoo.com,\n Website:http://za.num.edu.mn');
   }
   function ans_menu_numScholar(bot, message){
-      bot.reply(message, '1.6');
+      bot.reply(message, 'Тайваний иргэн Wuni Wurta-ийн нэрэмжит тэтгэлэг зарлагдлаа\nТэтгэлгийн зорилго: Монголын ирээдүйг бүтээлцэхүйц МУИС-д суралцаж буй идэвхитэй, сурлага сайтай, манлайлагч, сургалтын төлбөрийн дэмжлэг шаардлагатай оюутнуудыг дэмжих, хөгжүүлэх зорилготой. Жил бүр бакалаврын түвшний 6 оюутанд тэтгэлэг олгодог. Тэтгэлгийн хэмжээ: Нэг улиралд 250 ам.доллар байна дэлгэрэгүй мэдээллийг дараах линкээр орж үзнэ үү\nhttp://news.num.edu.mn/?p=50989\nМУИС-ИЙН НЭРЭМЖИТ ТЭТГЭЛЭГ-2019” ЗАРЛАГДЛАА\nТэтгэлгийн зорилго нь: МУИС-д суралцаж буй бакалаврын түвшний суралцагчдын сурч боловсрох, өөрийгөө хөгжүүлэхэд дэмжлэг үзүүлэх, амжилттай суралцаж буй шилдэг суралцагчийг урамшуулах зорилготой. Дараах болзол хангасан суралцагч тэтгэлэгт нэрээ дэвшүүлэх боломжтой дэлгэрэнгүй мэдээллийг дараах линкээр орж үзнэ үү\nhttp://news.num.edu.mn/?p=50950');
   }
   function ans_menu_numClub(bot, message){
       bot.reply(message, '1.7');
@@ -113,7 +113,7 @@ module.exports = function(controller) {
   function ans_menu_numArmy(bot, message){
       bot.reply(message, '1.8');
   }
-  function ans_num_numDormnum_numDorm(bot, message){
+  function ans_num_numDorm(bot, message){
       bot.reply(message, '1.9');
   }
   function ans_menu_numLocation(bot, message){
