@@ -84,10 +84,10 @@ module.exports = function(controller) {
   }
 
   function ans_menu_CultureAndHealthAndSport(bot, message) {
-      bot.reply(message, '2');
+      bot.reply(message, 'Дараах линкээр орж мэдээллээ үзнэ үү http://student.num.edu.mn/?page_id=131');
   }
   function ans_menu_ForeignStudent(bot, message) {
-    bot.reply(message, '1');
+    bot.reply(message, 'Гадаад оюутнуудыг Монгол орны амьдрал, их сургуулийн амьдралд дасан зохицоход болон Монгол хэл сурахад туслах зорилгоор Монгол оюутнуудтай нөхөрлүүлэх, гадаад оюутнуудыг өдөр тутмын амьдралд нь туслах чиглүүлж өгөх зорилготой. Дэлгэрэнгүй мэдээллийг дараах линкээр орж үзнэ үү http://student.num.edu.mn/?page_id=242');
   }
   function ans_menu_stcounselUnion(bot, message){
     bot.reply(message, '1.1');
