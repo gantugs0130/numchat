@@ -93,10 +93,10 @@ module.exports = function(controller) {
     bot.reply(message, '1.1');
   }
   function ans_menu_stcounselBusiness(bot, message){
-      bot.reply(message, 'Утасны дугаар: 77307730-4101 Email: bs@num.edu.mn Website: http://bs.num.edu.mn/ ');
+      bot.reply(message, 'Утасны дугаар:77307730-4101, Email:bs@num.edu.mn, Website:http://bs.num.edu.mn ');
   }
   function ans_menu_stcounselLegalAndSirpa(bot, message){
-      bot.reply(message, '1.3');
+      bot.reply(message, ' Хууль зүйн сургуул: Утасны дугаар:77307730-312600, Email:lawschool@num.edu.mn, Website:http://law.num.edu.mn  ОУХНУС:  Утасны дугаар:77307730-5101, Email:sirparo@num.edu.mn, Website:http://sirpa.num.edu.mn');
   }
   function ans_menu_stcounselSeasAndSas(bot, message){
       bot.reply(message, '1.4');
