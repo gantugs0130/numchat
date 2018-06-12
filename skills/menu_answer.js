@@ -16,14 +16,11 @@ module.exports = function(controller) {
             case 'menu_ohvgVolunteer':
                 ans_menu_ohvgVolunteer(bot, message);
                 break;
-            case 'menu_CultureAndHealthAndSport':
-                ans_menu_CultureAndHealthAndSport(bot, message);
+            case 'menu_ohvgCultureAndHealthAndSport':
+                ans_menu_ohvgCultureAndHealthAndSport(bot, message);
                 break;
-            case 'menu_ForeignStudent':
-                ans_menu_ForeignStudent(bot, message);
-                break;
-            case 'menu_stcounselUnion':
-                ans_menu_stcounselUnion(bot, message);
+            case 'menu_ohvgForeignStudent':
+                ans_menu_ohvgForeignStudent(bot, message);
                 break;
             case 'menu_stcounselBusiness':
                 ans_menu_stcounselBusiness(bot, message);
@@ -83,14 +80,11 @@ module.exports = function(controller) {
     bot.reply(message, '3');
   }
 
-  function ans_menu_CultureAndHealthAndSport(bot, message) {
+  function ans_menu_ohvgCultureAndHealthAndSport(bot, message) {
       bot.reply(message, 'Дараах линкээр орж мэдээллээ үзнэ үү http://student.num.edu.mn/?page_id=131');
   }
-  function ans_menu_ForeignStudent(bot, message) {
+  function ans_menu_ohvgForeignStudent(bot, message) {
     bot.reply(message, 'Гадаад оюутнуудыг Монгол орны амьдрал, их сургуулийн амьдралд дасан зохицоход болон Монгол хэл сурахад туслах зорилгоор Монгол оюутнуудтай нөхөрлүүлэх, гадаад оюутнуудыг өдөр тутмын амьдралд нь туслах чиглүүлж өгөх зорилготой. Дэлгэрэнгүй мэдээллийг дараах линкээр орж үзнэ үү http://student.num.edu.mn/?page_id=242');
-  }
-  function ans_menu_stcounselUnion(bot, message){
-    bot.reply(message, '1.1');
   }
   function ans_menu_stcounselBusiness(bot, message){
       bot.reply(message, 'Утасны дугаар:77307730-4101,\nEmail:bs@num.edu.mn,\nWebsite:http://bs.num.edu.mn');
