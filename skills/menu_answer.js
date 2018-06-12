@@ -93,7 +93,7 @@ module.exports = function(controller) {
     bot.reply(message, '1.1');
   }
   function ans_menu_stcounselBusiness(bot, message){
-      bot.reply(message, 'Утасны дугаар:77307730-4101, Email:bs@num.edu.mn, Website:http://bs.num.edu.mn ');
+      bot.reply(message, 'Утасны дугаар:77307730-4101,\nEmail:bs@num.edu.mn,\nWebsite:http://bs.num.edu.mn');
   }
   function ans_menu_stcounselLegalAndSirpa(bot, message){
       bot.reply(message, ' Хууль зүйн сургуул:\nУтасны дугаар:77307730-312600,\nEmail:lawschool@num.edu.mn,\nWebsite:http://law.num.edu.mn\n ОУХНУС:\nУтасны дугаар:77307730-5101,\nEmail:sirparo@num.edu.mn, \nWebsite:http://sirpa.num.edu.mn');
