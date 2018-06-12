@@ -96,13 +96,13 @@ module.exports = function(controller) {
       bot.reply(message, 'Утасны дугаар:77307730-4101, Email:bs@num.edu.mn, Website:http://bs.num.edu.mn ');
   }
   function ans_menu_stcounselLegalAndSirpa(bot, message){
-      bot.reply(message, ' Хууль зүйн сургуул: Утасны дугаар:77307730-312600, Email:lawschool@num.edu.mn, Website:http://law.num.edu.mn           ОУХНУС:  Утасны дугаар:77307730-5101, Email:sirparo@num.edu.mn, Website:http://sirpa.num.edu.mn');
+      bot.reply(message, ' Хууль зүйн сургуул:\nУтасны дугаар:77307730-312600,\nEmail:lawschool@num.edu.mn,\nWebsite:http://law.num.edu.mn\n ОУХНУС:\nУтасны дугаар:77307730-5101,\nEmail:sirparo@num.edu.mn, \nWebsite:http://sirpa.num.edu.mn');
   }
   function ans_menu_stcounselSeasAndSas(bot, message){
-      bot.reply(message, 'ХШИУС: Утасны дугаар:325631, Email:contact@seas.num.edu.mn, Website:http://seas.num.edu.mn        ШУС: Утасны дугаар:77307730-2101, Email:sas@num.edu.mn, Website:http://sas.num.edu.mn');
+      bot.reply(message, 'ХШИУС:\nУтасны дугаар:325631,\nEmail:contact@seas.num.edu.mn,\nWebsite:http://seas.num.edu.mn\nШУС:\nУтасны дугаар:77307730-2101,\nEmail:sas@num.edu.mn,\nWebsite:http://sas.num.edu.mn');
   }
   function ans_menu_stcounselOrkhonAndZawkhan(bot, message){
-      bot.reply(message, 'Эрдэнэт: Утасны дугаар:7035-2851, Email:erdenet@num.edu.mn, Website:http://www.muis-orkhon.mn Завхан: Утасны дугаар:70462233, Email:zavkhan_1974@yahoo.com , Website:http://za.num.edu.mn/');
+      bot.reply(message, 'Эрдэнэт:\nУтасны дугаар:7035-2851,\nEmail:erdenet@num.edu.mn,\nWebsite:http://www.muis-orkhon.mn\nЗавхан:\nУтасны дугаар:70462233,\nEmail:zavkhan_1974@yahoo.com,\n Website:http://za.num.edu.mn');
   }
   function ans_menu_numScholar(bot, message){
       bot.reply(message, '1.6');
