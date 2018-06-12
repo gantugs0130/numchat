@@ -22,23 +22,35 @@ module.exports = function(controller) {
             case 'menu_ForeignStudent':
                 ans_menu_ForeignStudent(bot, message);
                 break;
+            case 'menu_stcounselUnion':
+                ans_menu_stcounselUnion(bot, message);
+                break;
+            case 'menu_stcounselBusiness':
+                ans_menu_stcounselBusiness(bot, message);
+                break;
+            case 'menu_stcounselLegalAndSirpa':
+                ans_menu_stcounselLegalAndSirpa(bot, message);
+                break;
+            case 'menu_stcounselSeasAndSas':
+                ans_menu_stcounselSeasAndSas(bot, message);
+                break;
             default:
                 bot.reply(message, 'meh!');
         }
     });
   
   function ans_menu_numRule(bot, message) {
-    bot.reply(message, 'Hey u picked rule!');
+    bot.reply(message, '6');
   }
 
   function ans_menu_ohvgJob(bot, message) {
-      bot.reply(message, '4');
+      bot.reply(message, '5');
   }
   function ans_menu_ohvgStExchange(bot, message) {
-    bot.reply(message, '3');
+    bot.reply(message, '4');
   }
   function ans_menu_ohvgVolunteer(bot, message) {
-    bot.reply(message, 'Hey u picked rule!');
+    bot.reply(message, '3');
   }
 
   function ans_menu_CultureAndHealthAndSport(bot, message) {
@@ -46,6 +58,18 @@ module.exports = function(controller) {
   }
   function ans_menu_ForeignStudent(bot, message) {
     bot.reply(message, '1');
+  }
+  function ans_menu_stcounselUnion(bot, message){
+    bot.reply(message, '1.1');
+  }
+  function ans_menu_stcounselBusiness(bot, message){
+      bot.reply(message, '1.2');
+  }
+  function ans_menu_stcounselLegalAndSirpa(bot, message){
+      bot.reply(message, '1.3');
+  }
+  function ans_menu_stcounselSeasAndSas(bot, message){
+      bot.reply(message, '1.4');
   }
 
 }
@@ -57,10 +81,10 @@ module.exports = function(controller) {
   **menu_ohvgVolunteer
   **menu_ohvgCultureAndHealthAndSport
   **menu_ohvgForeignStudent
-  menu_stcounselUnion
-  menu_stcounselBusiness
-  menu_stcounselLegalAndSirpa
-  menu_stcounselSeasAndSas
+  **menu_stcounselUnion
+  **menu_stcounselBusiness
+  **menu_stcounselLegalAndSirpa
+  **menu_stcounselSeasAndSas
   menu_stcounselOrkhonAndZawkhan
   menu_numScholar
   menu_numClub
