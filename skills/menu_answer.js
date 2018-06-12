@@ -102,7 +102,7 @@ module.exports = function(controller) {
       bot.reply(message, 'ХШИУС: Утасны дугаар:325631, Email:contact@seas.num.edu.mn, Website:http://seas.num.edu.mn        ШУС: Утасны дугаар:77307730-2101, Email:sas@num.edu.mn, Website:http://sas.num.edu.mn');
   }
   function ans_menu_stcounselOrkhonAndZawkhan(bot, message){
-      bot.reply(message, 'Эрдэнэт: Утасны дугаар:7035-2851, Email:erdenet@num.edu.mn, Website:http://www.muis-orkhon.mn');
+      bot.reply(message, 'Эрдэнэт: Утасны дугаар:7035-2851, Email:erdenet@num.edu.mn, Website:http://www.muis-orkhon.mn Завхан: Утасны дугаар:70462233, Email:zavkhan_1974@yahoo.com , Website:za.num.edu.mn');
   }
   function ans_menu_numScholar(bot, message){
       bot.reply(message, '1.6');
