@@ -10,6 +10,18 @@ module.exports = function(controller) {
             case 'menu_ohvgJob':
                 ans_menu_ohvgJob(bot, message);
                 break;
+            case 'menu_ohvgStExchange':
+                ans_menu_ohvgStExchange(bot, message);
+                break;
+            case 'menu_numRule':
+                ans_menu_ohvgVolunteer(bot, message);
+                break;
+            case 'menu_ohvgJob':
+                ans_menu_ohvgCultureAndHealthAndSport(bot, message);
+                break;
+            case 'menu_ohvgStExchange':
+                ans_menu_ohvgForeignStudent(bot, message);
+                break;
             default:
                 bot.reply(message, 'meh!');
         }
@@ -19,15 +31,32 @@ module.exports = function(controller) {
     bot.reply(message, 'Hey u picked rule!');
   }
 
+  function ans_menu_ohvgJob(bot, message) {
+      bot.reply(message, '4');
+  }
+  function ans_menu_ohvgStExchange(bot, message) {
+    bot.reply(message, '3');
+  }
+  function ans_menu_ohvgVolunteer(bot, message) {
+    bot.reply(message, 'Hey u picked rule!');
+  }
+
+  function ans_menu_ohvgCultureAndHealthAndSport(bot, message) {
+      bot.reply(message, '2');
+  }
+  function ans_menu_ohvgForeignStudent(bot, message) {
+    bot.reply(message, '1');
+  }
+
 }
 
 /*
   **menu_numRule
-  menu_ohvgJob
-  menu_ohvgStExchange
-  menu_ohvgVolunteer
-  menu_ohvgCultureAndHealthAndSport
-  menu_ohvgForeignStudent
+  **menu_ohvgJob
+  **menu_ohvgStExchange
+  **menu_ohvgVolunteer
+  **menu_ohvgCultureAndHealthAndSport
+  **menu_ohvgForeignStudent
   menu_stcounselUnion
   menu_stcounselBusiness
   menu_stcounselLegalAndSirpa
