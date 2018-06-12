@@ -13,13 +13,13 @@ module.exports = function(controller) {
             case 'menu_ohvgStExchange':
                 ans_menu_ohvgStExchange(bot, message);
                 break;
-            case 'menu_numRule':
+            case 'menu_ohvgVolunteer':
                 ans_menu_ohvgVolunteer(bot, message);
                 break;
-            case 'menu_ohvgJob':
+            case 'menu_ohvgCultureAndHealthAndSport':
                 ans_menu_ohvgCultureAndHealthAndSport(bot, message);
                 break;
-            case 'menu_ohvgStExchange':
+            case 'menu_ohvgForeignStudent':
                 ans_menu_ohvgForeignStudent(bot, message);
                 break;
             default:
