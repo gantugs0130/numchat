@@ -6,7 +6,10 @@ module.exports = function(controller) {
         switch (message.payload) {
             case 'menu_numRule':
                 ans_menu_numRule(bot, message);
-                break;            
+                break;
+            case 'menu_ohvgJob':
+                ans_menu_ohvgJob(bot, message);
+                break;
             default:
                 bot.reply(message, 'meh!');
         }
@@ -19,7 +22,7 @@ module.exports = function(controller) {
 }
 
 /*
-  menu_numRule
+  **menu_numRule
   menu_ohvgJob
   menu_ohvgStExchange
   menu_ohvgVolunteer
