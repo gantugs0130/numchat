@@ -34,6 +34,24 @@ module.exports = function(controller) {
             case 'menu_stcounselSeasAndSas':
                 ans_menu_stcounselSeasAndSas(bot, message);
                 break;
+            case 'menu_stcounselOrkhonAndZawkhan':
+                ans_menu_stcounselOrkhonAndZawkhan(bot, message);
+                break;
+            case 'menu_numScholar':
+                ans_menu_numScholar(bot, message);
+                break;
+            case 'menu_numClub':
+                ans_menu_numClub(bot, message);
+                break;
+            case 'menu_numArmy':
+                ans_menu_numArmy(bot, message);
+                break;
+            case 'num_numDorm':
+                ans_num_numDorm(bot, message);
+                break;
+            case 'menu_numLocation':
+                ans_menu_numLocation(bot, message);
+                break;
             default:
                 bot.reply(message, 'meh!');
         }
@@ -71,6 +89,24 @@ module.exports = function(controller) {
   function ans_menu_stcounselSeasAndSas(bot, message){
       bot.reply(message, '1.4');
   }
+  function ans_menu_stcounselOrkhonAndZawkhan(bot, message){
+      bot.reply(message, '1.5');
+  }
+  function ans_menu_numScholar(bot, message){
+      bot.reply(message, '1.6');
+  }
+  function ans_menu_numClub(bot, message){
+      bot.reply(message, '1.7');
+  }
+  function ans_menu_numArmy(bot, message){
+      bot.reply(message, '1.8');
+  }
+  function ans_num_numDormnum_numDorm(bot, message){
+      bot.reply(message, '1.9');
+  }
+  function ans_menu_numLocation(bot, message){
+      bot.reply(message, '2.0');
+  }
 
 }
 
@@ -85,12 +121,12 @@ module.exports = function(controller) {
   **menu_stcounselBusiness
   **menu_stcounselLegalAndSirpa
   **menu_stcounselSeasAndSas
-  menu_stcounselOrkhonAndZawkhan
-  menu_numScholar
-  menu_numClub
-  menu_numArmy
-  num_numDorm
-  menu_numLocation
+  **menu_stcounselOrkhonAndZawkhan
+  **menu_numScholar
+  **menu_numClub
+  **menu_numArmy
+  **num_numDorm
+  **menu_numLocation
   menu_infoEvent
   menu_infoNews
   menu_infoLiveChat
