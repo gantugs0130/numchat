@@ -96,13 +96,13 @@ module.exports = function(controller) {
       bot.reply(message, 'Утасны дугаар:77307730-4101, Email:bs@num.edu.mn, Website:http://bs.num.edu.mn ');
   }
   function ans_menu_stcounselLegalAndSirpa(bot, message){
-      bot.reply(message, ' Хууль зүйн сургуул: Утасны дугаар:77307730-312600, Email:lawschool@num.edu.mn, Website:http://law.num.edu.mn  ОУХНУС:  Утасны дугаар:77307730-5101, Email:sirparo@num.edu.mn, Website:http://sirpa.num.edu.mn');
+      bot.reply(message, ' Хууль зүйн сургуул: Утасны дугаар:77307730-312600, Email:lawschool@num.edu.mn, Website:http://law.num.edu.mn           ОУХНУС:  Утасны дугаар:77307730-5101, Email:sirparo@num.edu.mn, Website:http://sirpa.num.edu.mn');
   }
   function ans_menu_stcounselSeasAndSas(bot, message){
-      bot.reply(message, '1.4');
+      bot.reply(message, 'ХШИУС: Утасны дугаар:325631, Email:contact@seas.num.edu.mn, Website:http://seas.num.edu.mn        ШУС: Утасны дугаар:77307730-2101, Email:sas@num.edu.mn, Website:http://sas.num.edu.mn');
   }
   function ans_menu_stcounselOrkhonAndZawkhan(bot, message){
-      bot.reply(message, '1.5');
+      bot.reply(message, 'Эрдэнэт: Утасны дугаар:7035-2851, Email:erdenet@num.edu.mn, Website:http://www.muis-orkhon.mn');
   }
   function ans_menu_numScholar(bot, message){
       bot.reply(message, '1.6');
