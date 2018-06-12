@@ -52,6 +52,18 @@ module.exports = function(controller) {
             case 'menu_numLocation':
                 ans_menu_numLocation(bot, message);
                 break;
+            case 'menu_infoEvent':
+                ans_menu_infoEvent(bot, message);
+                break;
+            case 'menu_infoNews':
+                ans_menu_infoNews(bot, message);
+                break;
+            case 'menu_infoLiveChat':
+                ans_menu_infoLiveChat(bot, message);
+                break;
+            case 'menu_liveChat':
+                ans_menu_liveChat(bot, message);
+                break;
             default:
                 bot.reply(message, 'meh!');
         }
@@ -107,7 +119,18 @@ module.exports = function(controller) {
   function ans_menu_numLocation(bot, message){
       bot.reply(message, '2.0');
   }
-
+  function ans_menu_infoEvent(bot, message){
+      bot.reply(message, '2.1');
+  }
+  function ans_menu_infoNews(bot, message){
+      bot.reply(message, '2.2');
+  }
+  function ans_menu_infoLiveChat(bot, message){
+      bot.reply(message, '2.3');
+  }
+  function ans_menu_liveChat(bot, message){
+      bot.reply(message, '2.4');
+  }
 }
 
 /*
@@ -127,8 +150,8 @@ module.exports = function(controller) {
   **menu_numArmy
   **num_numDorm
   **menu_numLocation
-  menu_infoEvent
-  menu_infoNews
-  menu_infoLiveChat
-  menu_liveChat
+  **menu_infoEvent
+  **menu_infoNews
+  **menu_infoLiveChat
+  **menu_liveChat
 */
