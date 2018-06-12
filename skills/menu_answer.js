@@ -70,11 +70,11 @@ module.exports = function(controller) {
     });
   
   function ans_menu_numRule(bot, message) {
-    bot.reply(message, '6');
+    bot.reply(message, 'http://news.num.edu.mn/wp-content/uploads/2017/12/%D0%A1%D1%83%D1%80%D0%B3%D0%B0%D0%BB%D1%82%D1%8B%D0%BD-%D0%B6%D1%83%D1%80%D0%B0%D0%BC-%D1%82%D3%A9%D1%81%D3%A9%D0%BB.pdf');
   }
 
   function ans_menu_ohvgJob(bot, message) {
-      bot.reply(message, '5');
+      bot.reply(message, 'Оюутны албанаас хөдөлмөр эрхлэлтийг дэмжих хөтөлбөрийн хүрээнд чадавхжуулах сургалт, ажил олгогчдын үзэсгэлэн яармаг, мэргэжил сурталчлах мөн томоохон ажил олгогч байгууллагуудтай танилцах аялал, цагийн болон ажлын байранд зуучлах ажлыг зохион байгуулдаг дэлэгрэнгүй мэдээллийг  http://student.num.edu.mn/?page_id=123 энэ линкээр үзнэ үү ');
   }
   function ans_menu_ohvgStExchange(bot, message) {
     bot.reply(message, '4');
