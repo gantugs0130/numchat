@@ -93,7 +93,7 @@ module.exports = function(controller) {
     bot.reply(message, '1.1');
   }
   function ans_menu_stcounselBusiness(bot, message){
-      bot.reply(message, '1.2');
+      bot.reply(message, 'Утасны дугаар: 77307730-4101 Email: bs@num.edu.mn' Website: http://bs.num.edu.mn/);
   }
   function ans_menu_stcounselLegalAndSirpa(bot, message){
       bot.reply(message, '1.3');
